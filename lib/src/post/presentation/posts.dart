@@ -4,7 +4,7 @@ import 'package:bosra_elcham/src/home/presentation/widgets/bottomNavigationBar.d
 import 'package:bosra_elcham/src/home/presentation/widgets/drawer.dart';
 import 'package:bosra_elcham/src/shared/decoration.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+// import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class PostsScreen extends StatelessWidget {
   const PostsScreen({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class PostsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     var _scaffoldKey = GlobalKey<ScaffoldState>();
     MyDecoration decoration = MyDecoration();
-    var translate = AppLocalizations.of(context)!;
+    // var translate = AppLocalizations.of(context)!;
 
     return Scaffold(
       key: _scaffoldKey,
@@ -23,7 +23,7 @@ class PostsScreen extends StatelessWidget {
           child: MyAppBar(
             scaffoldKey: _scaffoldKey,
           )),
-      body: Center(child: Text(translate.posts)),
+      // body: Center(child: Text(translate.posts)),
       bottomNavigationBar: PreferredSize(
           preferredSize: Size.fromHeight(decoration.screenHeight(context)*0.1),
           child: const BottomNavBar()),

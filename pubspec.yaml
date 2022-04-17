@@ -1,11 +1,17 @@
 # Developed by Eng Mouaz M Shahmeh 2022
 name: bosra_elcham
 description: Developed by Eng Mouaz M Shahmeh
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
+homepage: https://github.com/Eng-Mouaz-M-AlShahmeh/Bosra-ElCham
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=2.10.4"
+
+false_secrets:
+  - /android/app/google-services.json
+  - /ios/Runner/GoogleService-Info.plist
+  - /lib/src/shared/app_strings.dart
 
 dependencies:
   flutter:

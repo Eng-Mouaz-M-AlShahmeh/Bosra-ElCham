@@ -24,7 +24,7 @@ class AuthService {
       User? userAuth = result.user;
       return _userFromFirebaseUser(userAuth!);
     } catch (e) {
-      print(e.toString());
+      // print(e.toString());
       return null;
     }
   }
@@ -37,7 +37,7 @@ class AuthService {
       User? user = result.user;
       return _userFromFirebaseUser(user!);
     } catch (e) {
-      print(e.toString());
+      // print(e.toString());
       return null;
     }
   }
@@ -59,7 +59,7 @@ class AuthService {
 
       return _userFromFirebaseUser(user);
     } catch (e) {
-      print(e.toString());
+      // print(e.toString());
       return null;
     }
   }
@@ -69,7 +69,7 @@ class AuthService {
     try {
       return await _auth.signOut();
     } catch (e) {
-      print(e.toString());
+      // print(e.toString());
       return null;
     }
   }
