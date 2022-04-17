@@ -1,0 +1,15 @@
+{
+  "home": "Home",
+  "logout": "Logout",
+  "username": "Username",
+  "password": "Password",
+  "login": "Login",
+  "doNotHaveAccount": "Do Not Have Account?",
+  "register": "Register",
+  "email": "email",
+  "confirmPassword": "Confirm Password",
+  "haveAccount": "Already Have Account?",
+  "about": "About",
+  "posts": "Posts",
+  "settings": "Settings"
+}

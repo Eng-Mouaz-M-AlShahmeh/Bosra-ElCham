@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550319366999",
+    "project_id": "bosra-elcham",
+    "storage_bucket": "bosra-elcham.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550319366999:android:259d060edd2bdf8965d412",
+        "android_client_info": {
+          "package_name": "com.engmouaz.bosra_elcham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550319366999-rtvl0euuqqjh53o6kp3gbunu9jr3mrt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6JQWEwa9hzhke24IHHAEk1nJLwCyg780"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550319366999-rtvl0euuqqjh53o6kp3gbunu9jr3mrt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
