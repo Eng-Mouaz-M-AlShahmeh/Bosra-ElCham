@@ -9,10 +9,10 @@ class DatabaseService {
 
   // collection reference
   final CollectionReference usersCollection =
-  FirebaseFirestore.instance.collection('users');
+      FirebaseFirestore.instance.collection('users');
 
   final CollectionReference productsCollection =
-  FirebaseFirestore.instance.collection('products');
+      FirebaseFirestore.instance.collection('products');
 
   // update user data
   Future updateUserData(String? email, Timestamp timeRegistered) async {
@@ -37,11 +37,11 @@ class DatabaseService {
   List<PostModel> _productListFromSnapshot(QuerySnapshot snapshot) {
     return snapshot.docs
         .map((doc) => PostModel(
-      title: doc['title'] ?? '',
-      price: doc['price'] ?? 0.0,
-      quantity: doc['quantity'] ?? 0,
-      timeAdded: doc['timeAdded'],
-    ))
+              title: doc['title'] ?? '',
+              price: doc['price'] ?? 0.0,
+              quantity: doc['quantity'] ?? 0,
+              timeAdded: doc['timeAdded'],
+            ))
         .toList();
   }
 

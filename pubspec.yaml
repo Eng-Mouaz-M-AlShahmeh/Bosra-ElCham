@@ -1,7 +1,7 @@
 # Developed by Eng Mouaz M Shahmeh 2022
 name: bosra_elcham
-description: Developed by Eng Mouaz M Shahmeh
-version: 1.0.0+1
+description: Developed by Eng Mouaz M Shahmeh Bosra El Cham is Flutter App for Bosra ElCham city in Syria which have historical and geographical description
+version: 1.0.0+2
 homepage: https://github.com/Eng-Mouaz-M-AlShahmeh/Bosra-ElCham
 
 environment:

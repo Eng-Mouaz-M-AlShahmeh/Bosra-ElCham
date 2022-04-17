@@ -7,8 +7,7 @@ import 'package:provider/provider.dart';
 
 class MyAppBar extends StatelessWidget {
   final GlobalKey<ScaffoldState> scaffoldKey;
-  const MyAppBar({Key? key, required this.scaffoldKey
-  }) : super(key: key);
+  const MyAppBar({Key? key, required this.scaffoldKey}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,12 +35,14 @@ class MyAppBar extends StatelessWidget {
             child: locale.themeMode == ThemeMode.light
                 ? Icon(
                     Icons.nightlight_round,
-                    size: decoration.theme(context).textTheme.headline2!.fontSize,
+                    size:
+                        decoration.theme(context).textTheme.headline2!.fontSize,
                     color: decoration.theme(context).backgroundColor,
                   )
                 : Icon(
                     Icons.wb_sunny_rounded,
-                    size: decoration.theme(context).textTheme.headline2!.fontSize,
+                    size:
+                        decoration.theme(context).textTheme.headline2!.fontSize,
                     color: decoration.theme(context).backgroundColor,
                   ),
             onTap: () => locale.themeMode == ThemeMode.light
@@ -49,21 +50,22 @@ class MyAppBar extends StatelessWidget {
                 : locale.setThemeMode(ThemeMode.light),
           ),
         ),
-
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: InkWell(
             child: locale.locale == const Locale('ar', 'SA')
                 ? Icon(
-              Icons.g_translate_outlined,
-              size: decoration.theme(context).textTheme.headline2!.fontSize,
-              color: decoration.theme(context).backgroundColor,
-            )
+                    Icons.g_translate_outlined,
+                    size:
+                        decoration.theme(context).textTheme.headline2!.fontSize,
+                    color: decoration.theme(context).backgroundColor,
+                  )
                 : Icon(
-              Icons.translate_outlined,
-              size: decoration.theme(context).textTheme.headline2!.fontSize,
-              color: decoration.theme(context).backgroundColor,
-            ),
+                    Icons.translate_outlined,
+                    size:
+                        decoration.theme(context).textTheme.headline2!.fontSize,
+                    color: decoration.theme(context).backgroundColor,
+                  ),
             onTap: () => locale.locale == const Locale('ar', 'SA')
                 ? locale.setLocale(const Locale('en', 'US'))
                 : locale.setLocale(const Locale('ar', 'SA')),

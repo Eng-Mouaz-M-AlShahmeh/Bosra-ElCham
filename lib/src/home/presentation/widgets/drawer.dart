@@ -26,7 +26,13 @@ class CustomDrawer extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   CircleAvatar(
-                    child: Text('ABC', style: decoration.theme(context).textTheme.headline4!.copyWith(color: decoration.theme(context).primaryColor)),
+                    child: Text('ABC',
+                        style: decoration
+                            .theme(context)
+                            .textTheme
+                            .headline4!
+                            .copyWith(
+                                color: decoration.theme(context).primaryColor)),
                     backgroundColor: decoration.theme(context).backgroundColor,
                     radius: 40,
                   ),
@@ -36,8 +42,13 @@ class CustomDrawer extends StatelessWidget {
                     children: [
                       Text(
                         'John Doe',
-                        style: decoration.theme(context).textTheme.headline4!
-                            .copyWith(color: decoration.theme(context).backgroundColor),
+                        style: decoration
+                            .theme(context)
+                            .textTheme
+                            .headline4!
+                            .copyWith(
+                                color:
+                                    decoration.theme(context).backgroundColor),
                       ),
                     ],
                   ),
@@ -58,7 +69,11 @@ class CustomDrawer extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.home,
-                      size: decoration.theme(context).textTheme.headline2!.fontSize,
+                      size: decoration
+                          .theme(context)
+                          .textTheme
+                          .headline2!
+                          .fontSize,
                       color: decoration.theme(context).primaryColor,
                     ),
                     const SizedBox(width: 10),
@@ -80,7 +95,11 @@ class CustomDrawer extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.info,
-                      size: decoration.theme(context).textTheme.headline2!.fontSize,
+                      size: decoration
+                          .theme(context)
+                          .textTheme
+                          .headline2!
+                          .fontSize,
                       color: decoration.theme(context).primaryColor,
                     ),
                     const SizedBox(width: 10),
@@ -101,7 +120,11 @@ class CustomDrawer extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.menu_book_outlined,
-                      size: decoration.theme(context).textTheme.headline2!.fontSize,
+                      size: decoration
+                          .theme(context)
+                          .textTheme
+                          .headline2!
+                          .fontSize,
                       color: decoration.theme(context).primaryColor,
                     ),
                     const SizedBox(width: 10),
@@ -122,7 +145,11 @@ class CustomDrawer extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.settings,
-                      size: decoration.theme(context).textTheme.headline2!.fontSize,
+                      size: decoration
+                          .theme(context)
+                          .textTheme
+                          .headline2!
+                          .fontSize,
                       color: decoration.theme(context).primaryColor,
                     ),
                     const SizedBox(width: 10),

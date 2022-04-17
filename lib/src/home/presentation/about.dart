@@ -19,13 +19,15 @@ class AboutScreen extends StatelessWidget {
       key: _scaffoldKey,
       drawer: const CustomDrawer(),
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(decoration.screenHeight(context) * 0.09),
+          preferredSize:
+              Size.fromHeight(decoration.screenHeight(context) * 0.09),
           child: MyAppBar(
             scaffoldKey: _scaffoldKey,
           )),
       // body: Center(child: Text(translate.about)),
       bottomNavigationBar: PreferredSize(
-          preferredSize: Size.fromHeight(decoration.screenHeight(context) * 0.1),
+          preferredSize:
+              Size.fromHeight(decoration.screenHeight(context) * 0.1),
           child: const BottomNavBar()),
     );
   }

@@ -23,7 +23,8 @@ class AccountScreen extends StatelessWidget {
       key: _scaffoldKey,
       drawer: const CustomDrawer(),
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(decoration.screenHeight(context) * 0.09),
+          preferredSize:
+              Size.fromHeight(decoration.screenHeight(context) * 0.09),
           child: MyAppBar(
             scaffoldKey: _scaffoldKey,
           )),
@@ -35,7 +36,8 @@ class AccountScreen extends StatelessWidget {
       //   },
       //     child: Text(translate.logout))),
       bottomNavigationBar: PreferredSize(
-          preferredSize: Size.fromHeight(decoration.screenHeight(context) * 0.1),
+          preferredSize:
+              Size.fromHeight(decoration.screenHeight(context) * 0.1),
           child: const BottomNavBar()),
     );
   }
